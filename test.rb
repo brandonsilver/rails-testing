@@ -9,3 +9,10 @@ while counter < a.length
 	puts a[counter]
 	counter = counter + 1
 end
+
+a.each do |thing|
+	print thing, " -- "
+end
+
+line = gets
+print line
