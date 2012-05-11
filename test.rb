@@ -16,3 +16,6 @@ end
 
 line = gets
 print line
+
+puts "this should make a random heroku address: "
+puts ('a'..'z').to_a.shuffle[0..7].join
